@@ -1,6 +1,8 @@
 name: My first workflow
 
 on: push
+env:
+  RUN_ANSIBLE: false
 
 jobs: 
   first_job:

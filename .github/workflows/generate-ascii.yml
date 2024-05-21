@@ -16,7 +16,7 @@ jobs:
         cat README.md  
 
     - name: Checkout Repo files
-      run: ls -ltrha     
+      run: grep -i dragon ascii-script.sh    
 
     - name: Executing Shell script
       run: |
